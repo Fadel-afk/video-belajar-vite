@@ -1,0 +1,233 @@
+
+.container-reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.card-reg {
+  background: #fff;
+  width: 90%;
+  height: auto;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.title-reg {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.subtitle-reg {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #39b54a;
+}
+
+.phone-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.flag {
+  width: 20px;  
+  display: block;
+}
+
+.country-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f3f3;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  cursor: pointer;
+  
+}
+
+.password-wrapper-reg {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.forgot-reg {
+  text-align: right;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.forgot-reg a {
+  color: #777;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary-reg {
+  width: 100%;
+  padding: 10px;
+  background: #39b54a;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btn-secondary-reg {
+  width: 100%;
+  padding: 10px;
+  background: #dff5e4;
+  border: none;
+  border-radius: 6px;
+  color: #39b54a;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.divider-reg {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.divider-reg span {
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+  margin: 0 10px;
+}
+
+.btn-google-reg {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  color: #777;
+  font-weight: bold;
+}
+
+.btn-google-reg img {
+  width: 18px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .container-reg {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-reg {
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+  }
+
+  .title-reg {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+
+  .subtitle-reg {
+    margin-bottom: 20px;
+  }
+
+  input,
+  select {
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .forgot-reg {
+    margin-bottom: 18px;
+    font-size: 0.9rem;
+  }
+
+  .btn-primary-reg {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .btn-secondary-reg {
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .divider-reg {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+
+  .btn-google-reg {
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .label-reg {
+    font-size: 1rem;
+  }
+
+  .btn-google-reg img {
+    width: 20px;
+  }
+
+}

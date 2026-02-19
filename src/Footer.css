@@ -1,0 +1,181 @@
+.footer {
+  background: white;
+  padding: 30px 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-content {
+  margin: auto;
+}
+
+.footer-content img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-desc {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.footer-address {
+    margin-bottom: 15px;
+}
+
+.footer-address,
+.footer-phone {
+  color: black;
+  font-size: 0.9rem;
+}
+
+.footer-menu {
+  margin-top: 5px;
+}
+
+.footer-menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.footer-menu-item span {
+  font-weight: 600;
+}
+
+.footer-social {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  background: #eee;
+}
+
+.footer-copy {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: #777;
+  font-weight: bold;
+}
+
+
+.footer-menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.submenu {
+  padding: 8px 0 12px 10px;
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  color: #555;
+  font-size: 14px;
+}
+
+.submenu.open {
+  display: flex;
+}
+
+.submenu p {
+  margin: 0;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 50px 200px;
+  }
+
+  .footer-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  .footer-left {
+    width: 30%;
+  }
+
+  .footer-left img {
+    width: 180px;
+  }
+
+  .footer-desc {
+    font-size: 1.2rem;
+  }
+
+  .footer-address,
+  .footer-phone {
+    font-size: 1rem;
+  }
+
+  .footer-menu {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    gap: 100px;
+  }
+
+  .footer-menu-item {
+    pointer-events: none;
+    border-bottom: none;
+  }
+
+  .footer-menu-item svg {
+    display: none;
+  }
+
+  .footer-menu-column {
+    font-size: 1.2rem;
+  }
+
+  .submenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+}
+
